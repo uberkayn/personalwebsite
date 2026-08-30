@@ -1,0 +1,53 @@
+:root {
+  color-scheme: light dark;
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+  line-height: 1.6;
+}
+
+body {
+  margin: 0;
+}
+
+main {
+  width: min(90%, 42rem);
+  margin: 18vh auto 4rem;
+}
+
+h1 {
+  margin: 0 0 1rem;
+  font-size: clamp(2rem, 8vw, 3.5rem);
+  line-height: 1.1;
+}
+
+h2 {
+  margin-top: 3rem;
+  font-size: 1rem;
+}
+
+p {
+  max-width: 36rem;
+}
+
+nav {
+  display: flex;
+  gap: 1.5rem;
+  margin-top: 2rem;
+}
+
+a {
+  color: inherit;
+  text-underline-offset: 0.25rem;
+}
+
+a:hover {
+  text-decoration-thickness: 0.15rem;
+}
+
+.back {
+  display: inline-block;
+  margin-bottom: 3rem;
+}
+
+.empty {
+  opacity: 0.65;
+}

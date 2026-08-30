@@ -1,12 +1,11 @@
-# Personal website
+# personalwebsite
 
-The source for Kayn's personal website, built with React, Vinext, and Tailwind CSS.
+A small personal website built with plain HTML and CSS.
 
-## Run locally
+## Preview locally
 
 ```bash
-npm install
-npm run dev
+python3 -m http.server 3000
 ```
 
-Then open the local URL shown in the terminal.
+Then visit <http://localhost:3000>.
