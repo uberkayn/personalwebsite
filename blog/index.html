@@ -8,14 +8,25 @@
     <link rel="stylesheet" href="/style.css">
   </head>
   <body>
-    <main>
-      <a class="back" href="/">← Home</a>
-      <h1>Blog</h1>
-      <p>Notes on technology, projects, and things I’m learning.</p>
+    <header class="site-header">
+      <a class="site-name" href="/">Kayn</a>
+      <nav aria-label="Main navigation">
+        <a href="/">Home</a>
+        <a aria-current="page" href="/blog/">Blog</a>
+        <a href="https://github.com/uberkayn">GitHub</a>
+      </nav>
+    </header>
 
-      <section aria-labelledby="posts">
-        <h2 id="posts">Posts</h2>
-        <p class="empty">Nothing here yet.</p>
+    <main>
+      <h1>Blog</h1>
+      <p class="intro">Notes on technology, projects, and things I’m learning.</p>
+
+      <section class="archive" aria-labelledby="archive-year">
+        <h2 id="archive-year">2026</h2>
+        <div class="empty-card">
+          <p>No posts yet.</p>
+          <span>The first one will appear here.</span>
+        </div>
       </section>
     </main>
   </body>

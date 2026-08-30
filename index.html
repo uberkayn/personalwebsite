@@ -8,14 +8,32 @@
     <link rel="stylesheet" href="/style.css">
   </head>
   <body>
-    <main>
-      <h1>Hi, I’m Kayn.</h1>
-      <p>I’m interested in technology, the web, and making useful things.</p>
-
+    <header class="site-header">
+      <a class="site-name" href="/">Kayn</a>
       <nav aria-label="Main navigation">
+        <a aria-current="page" href="/">Home</a>
         <a href="/blog/">Blog</a>
         <a href="https://github.com/uberkayn">GitHub</a>
       </nav>
+    </header>
+
+    <main>
+      <h1>Hello.</h1>
+      <p class="intro">
+        I’m Kayn. I’m interested in technology, the web, and making useful things.
+        This is where I share notes from what I’m learning and building.
+      </p>
+
+      <div class="links" aria-label="Featured links">
+        <a class="link-card" href="/blog/">
+          <span>Read the blog</span>
+          <span aria-hidden="true">→</span>
+        </a>
+        <a class="link-card" href="https://github.com/uberkayn">
+          <span>Find me on GitHub</span>
+          <span aria-hidden="true">↗</span>
+        </a>
+      </div>
     </main>
   </body>
 </html>
