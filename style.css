@@ -63,6 +63,17 @@ h2 {
   font-size: 12px;
 }
 
+.contact {
+  margin: 3rem 0 0;
+  color: #525252;
+  font-size: 12px;
+}
+
+.contact a {
+  color: inherit;
+  text-underline-offset: .2rem;
+}
+
 @media (max-width: 34rem) {
   body { margin-top: 1.5rem; }
   .site-header { margin-bottom: 2.5rem; }
