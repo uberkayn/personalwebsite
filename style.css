@@ -10,7 +10,7 @@
 * { box-sizing: border-box; }
 
 body {
-  width: min(calc(100% - 2rem), 51rem);
+  width: min(calc(100% - 2rem), 48rem);
   margin: 2rem auto 5rem;
   line-height: 1.5;
 }
@@ -121,6 +121,7 @@ h2 {
 }
 
 .doc-page {
+  width: min(calc(100% - 2rem), 51rem);
   margin-bottom: 6rem;
 }
 
@@ -178,16 +179,6 @@ h2 {
 }
 
 .document .impact { font-style: italic; }
-
-.home-document h1 {
-  font-size: 22px;
-  font-weight: 500;
-}
-
-.home-document .bio,
-.home-document .contact {
-  max-width: none;
-}
 
 @media (max-width: 34rem) {
   body { margin-top: 1.5rem; }
