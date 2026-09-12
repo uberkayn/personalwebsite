@@ -84,6 +84,8 @@ h2 {
   text-underline-offset: .2rem;
 }
 
+.about-line { margin: 0 0 1rem; }
+
 .post-card {
   display: flex;
   flex-direction: column;
